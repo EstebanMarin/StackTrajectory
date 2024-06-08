@@ -3,6 +3,8 @@ module Main (main) where
 import Graphics.Gnuplot.Simple (Attribute (..), plotPath)
 import Lib
 
+v0 = 29 *^ iHat
+
 main :: IO ()
 main =
   let posInitial = 10 *^ kHat
