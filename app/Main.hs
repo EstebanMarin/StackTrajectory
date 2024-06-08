@@ -1,7 +1,7 @@
 module Main (main) where
 
 import Graphics.Gnuplot.Simple (Attribute (..), plotPath)
-import Lib
+import Lib (iHat, kHat, projectilePos, xComp, zComp, (*^), (^+^))
 
 main :: IO ()
 main =
