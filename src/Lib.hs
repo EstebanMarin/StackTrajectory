@@ -1,4 +1,4 @@
-module Lib () where
+module Lib where
 
 infixl 6 ^+^
 
