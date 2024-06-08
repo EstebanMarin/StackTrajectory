@@ -93,7 +93,8 @@ grades :: [Grade]
 grades =
   [ Grade "Albert Einstein" 89,
     Grade "Isaac Newton" 95,
-    Grade "Alan Turing" 91
+    Grade "Alan Turing" 91,
+    Grade "Esteban Marin" 37
   ]
 
 data GradeRecord = GradeRecord
